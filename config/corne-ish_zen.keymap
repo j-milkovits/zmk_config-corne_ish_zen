@@ -14,7 +14,7 @@
       hm: homerow_mods {
           compatible = "zmk,behavior-hold-tap";
           label = "HOMEROW_MODS";
-          binding-cells = <2>;
+          #binding-cells = <2>;
           tapping-term-ms = <150>;
           quick_tap_ms = <0>;
           flavor = "tap-preferred";
@@ -23,7 +23,7 @@
       hl: homerow_mods_longer {
           compatible = "zmk,behavior-hold-tap";
           label = "HOMEROW_MODS_LONGER"; 
-          binding-cells = <2>;
+          #binding-cells = <2>;
           tapping-term-ms = <250>;
           quick-tap-ms = <0>;
           flavor = "tap-preferred";
@@ -32,7 +32,7 @@
       lm: layer_mod_tap {
           compatible = "zmk,behavior-hold-tap";
           label = "layer_hold_tap";
-          binding-cells = <2>;
+          #binding-cells = <2>;
           tapping-term-ms = <180>;
           quick-tap-ms = <0>;
           flavor = "tap-preferred";
