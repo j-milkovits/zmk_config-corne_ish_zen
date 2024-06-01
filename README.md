@@ -2,25 +2,10 @@
 
 ![Corne-ish Zen Logo](zenlogo.png)
 
-> **Warning**
->
-> If you have a Corne-ish Zen from round 3 of the group buy (delivered after October 2022) you should use the the config repo for V2 PCBs, available at [LOWPROKB/zmk-config-zen-2](https://github.com/LOWPROKB/zmk-config-zen-2) instead of this one!
-
-This repo is the official configuration of the Corne-ish Zen low profile wireless mechanical keyboard. Use it to develop your own keymap and easily build your own ZMK firmware to run on your Corne-ish Zen. These steps will get you using your keymap on your keyboard in the fastest time possible. It uses the GitHub Actions feature to build your firmware online, rather than setting up a complex tool chain on your local computer.
-If you are looking to dig deeper into ZMK and develop new functionality, it is recommended to follow the steps of installing ZMK as found on the official ZMK documentation site (linked below).
-
-**Note:** This process is temporary, and will be used until such time that the Corne-ish Zen board definition is merged into ZMK Main.
-
 ## Resources
 - The [official ZMK Firmware GitHub](https://github.com/zmkfirmware/zmk) repository. View the keymaps for other boards and shields as a starting point for your keymap.
 - The [official ZMK Documentation](https://zmk.dev/docs) web site. Find the answers to many of your questions about ZMK Firmware.
 - The [official ZMK Discord Server](https://discord.gg/8cfMkQksSB). Instant conversations with other ZMK developers and users. Great technical resource!
-
-## Instructions
-1. Log into, or sign up for, your personal GitHub account.
-2. Fork this repository to your local computer, and then push it to your GitHub personal account. ([instructions](https://docs.github.com/en/get-started/quickstart/fork-a-repo))
-3. Edit the keymap file(s) to suit your needs
-4. Commit and push your changes to your personal repo. Upon pushing it, GitHub Actions will start building a new version of your firmware with the updated keymap.
 
 ## Firmware Files
 To locate your firmware files...
