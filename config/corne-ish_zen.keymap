@@ -9,10 +9,6 @@
   };
 };
 
-&lt {
-    tapping-term-ms = <180>;
-};
-
 / {
     behaviors {
       hm: homerow_mods {
